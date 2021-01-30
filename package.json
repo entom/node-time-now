@@ -1,0 +1,18 @@
+{
+  "name": "@entom/node-time-now",
+  "version": "1.0.0",
+  "description": "Get current time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/entom/node-time-now.git"
+  },
+  "author": {
+    "email": "tomasznicieja@gmail.com",
+    "name": "Tomasz Nicieja"
+  },
+  "license": "ISC"
+}
