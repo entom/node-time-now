@@ -1,6 +1,6 @@
 {
   "name": "@entom/node-time-now",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Get current timestamp",
   "main": "index.js",
   "scripts": {
