@@ -5,9 +5,9 @@ exports.now = (unit = 'nano') => {
         case 'milli':
             time = processHrTime[0] * 1000 + processHrTime[1] / 1000000;
         case 'micro':
-            time = hrTime[0] * 1000000 + processHrTime[1] / 1000;
+            time = processHrTime[0] * 1000000 + processHrTime[1] / 1000;
         case 'nano':
-            time = hrTime[0] * 1000000000 + processHrTime[1];
+            time = processHrTime[0] * 1000000000 + processHrTime[1];
     }
 
     return time;
