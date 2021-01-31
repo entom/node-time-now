@@ -14,4 +14,4 @@ exports.now = (unit = 'nano') => {
     }
 
     return time;
-}
+};
